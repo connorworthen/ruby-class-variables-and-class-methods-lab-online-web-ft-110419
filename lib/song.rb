@@ -3,7 +3,7 @@ class Song
 
   @@count = 0
 
-  def initialize(count)
-    @@count = count
+  def initialize(:name)
+    @@count = :count
   end
 end
